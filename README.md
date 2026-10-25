@@ -8,14 +8,14 @@ usework 桌面应用的安装包与更新说明。本仓库用于公开分发，
 
 | 平台 | 版本 | 安装包 |
 | --- | --- | --- |
-| macOS · Apple Silicon（M 系列） | 0.1.2 | [下载 DMG](https://github.com/yangbo5207/usework-releases/releases/download/v0.1.2/usework-0.1.2-macos-arm64.dmg) |
-| Windows 10 / 11 · x64 | 0.1.1 | [下载安装器](https://github.com/yangbo5207/usework-releases/releases/download/v0.1.1/usework-0.1.1-windows-x64-setup.exe) |
+| macOS · Apple Silicon（M 系列） | 0.1.3 | [下载 DMG](https://github.com/yangbo5207/usework-releases/releases/download/v0.1.3/usework-0.1.3-macos-arm64.dmg) |
+| Windows 10 / 11 · x64 | 0.1.3 | [下载安装器](https://github.com/yangbo5207/usework-releases/releases/download/v0.1.3/usework-0.1.3-windows-x64-setup.exe) |
 
-本次仅更新 macOS，Windows 保留上一版本。[macOS 0.1.2 校验值](https://github.com/yangbo5207/usework-releases/releases/download/v0.1.2/SHA256SUMS) · [Windows 0.1.1 校验值](https://github.com/yangbo5207/usework-releases/releases/download/v0.1.1/SHA256SUMS)。安装包直接从 Releases 下载，无需下载仓库 ZIP。
+[安装包校验值](https://github.com/yangbo5207/usework-releases/releases/download/v0.1.3/SHA256SUMS)。安装包直接从 Releases 下载，无需下载仓库 ZIP。
 
 ## 自动更新
 
-macOS 0.1.2 起包含整应用更新器。发现兼容新版后，左侧导航底部显示蓝色更新按钮，点击下载并选择安装重启。0.1.1 及更早版本需要先手动安装一次 0.1.2，后续更高版本才可在应用内升级。
+macOS 0.1.2、Windows 0.1.3 起包含整应用更新器。发现兼容新版后，左侧导航底部显示蓝色更新按钮，点击下载并选择安装重启；也可进入“设置 → 常规 → usework 应用更新”手动检查。已安装 macOS 0.1.2 的用户现在可以检查并更新至 0.1.3。0.1.1 及更早版本需先手动安装当前新版，后续更高兼容版本才可在应用内升级。
 
 `app.tar.gz`、`.sig` 和 `latest.json` 供应用更新器使用，无需手动解压。更新保留本机聊天、配置与邮箱数据；更新包使用数字签名校验。
 
