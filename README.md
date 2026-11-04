@@ -8,10 +8,10 @@ usework 桌面应用的安装包与更新说明。本仓库用于公开分发，
 
 | 平台 | 版本 | 安装包 |
 | --- | --- | --- |
-| macOS · Apple Silicon（M 系列） | 0.1.22 | [下载 DMG](https://github.com/yangbo5207/usework-releases/releases/download/v0.1.22/usework-0.1.22-macos-arm64.dmg) |
-| Windows 10 / 11 · x64 | 0.1.22 | [下载安装器](https://github.com/yangbo5207/usework-releases/releases/download/v0.1.22/usework-0.1.22-windows-x64-setup.exe) |
+| macOS · Apple Silicon（M 系列） | 0.1.23 | [下载 DMG](https://github.com/yangbo5207/usework-releases/releases/download/v0.1.23/usework-0.1.23-macos-arm64.dmg) |
+| Windows 10 / 11 · x64 | 0.1.23 | [下载安装器](https://github.com/yangbo5207/usework-releases/releases/download/v0.1.23/usework-0.1.23-windows-x64-setup.exe) |
 
-[安装包校验值](https://github.com/yangbo5207/usework-releases/releases/download/v0.1.22/SHA256SUMS) · [自动更新清单 latest.json](https://github.com/yangbo5207/usework-releases/releases/download/v0.1.22/latest.json)。安装包直接从 Releases 下载，无需下载仓库 ZIP。
+[安装包校验值](https://github.com/yangbo5207/usework-releases/releases/download/v0.1.23/SHA256SUMS) · [自动更新清单 latest.json](https://github.com/yangbo5207/usework-releases/releases/download/v0.1.23/latest.json)。安装包直接从 Releases 下载，无需下载仓库 ZIP。
 
 ## 自动更新
 
@@ -25,9 +25,9 @@ usework 桌面应用的安装包与更新说明。本仓库用于公开分发，
 
 macOS：打开 DMG，将 usework 拖入“应用程序”。当前版本仅支持 Apple Silicon，已使用 Developer ID Application 签名并完成 Apple 公证。屏幕录制、辅助功能等系统隐私权限仍由 macOS 管理；若刚刚授权，请完整退出并重新打开应用。
 
-Windows：运行安装器，安装到当前用户。电脑缺少 WebView2 时，安装器会联网安装所需运行时。当前 Windows 安装包未配置发布者 Authenticode 签名；本版未运行测试，也未在 Windows 实机验证安装、启动或音频播放。
+Windows：运行安装器，安装到当前用户。电脑缺少 WebView2 时，安装器会联网安装所需运行时。当前 Windows 安装包未配置发布者 Authenticode 签名；本版未运行测试，也未在 Windows 实机验证安装、启动及功能。
 
-应用内置 Codex 0.163.0 完整运行时。运行用户项目所需的开发工具仍由用户自行准备；第三方组件许可与说明随应用分发。
+应用内置 Codex 0.166.0 完整运行时。运行用户项目所需的开发工具仍由用户自行准备；第三方组件许可与说明随应用分发。
 
 ## 更新日志
 
