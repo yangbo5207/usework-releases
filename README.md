@@ -8,10 +8,10 @@ usework 桌面应用的安装包与更新说明。本仓库用于公开分发，
 
 | 平台 | 版本 | 安装包 |
 | --- | --- | --- |
-| macOS · Apple Silicon（M 系列） | 0.1.26 | [下载 DMG](https://github.com/yangbo5207/usework-releases/releases/download/v0.1.26/usework-0.1.26-macos-arm64.dmg) |
-| Windows 10 / 11 · x64 | 0.1.26 | [下载安装器](https://github.com/yangbo5207/usework-releases/releases/download/v0.1.26/usework-0.1.26-windows-x64-setup.exe) |
+| macOS · Apple Silicon（M 系列） | 0.1.27 | [下载 DMG](https://github.com/yangbo5207/usework-releases/releases/download/v0.1.27/usework-0.1.27-macos-arm64.dmg) |
+| Windows 10 / 11 · x64 | 0.1.27 | [下载安装器](https://github.com/yangbo5207/usework-releases/releases/download/v0.1.27/usework-0.1.27-windows-x64-setup.exe) |
 
-[安装包校验值](https://github.com/yangbo5207/usework-releases/releases/download/v0.1.26/SHA256SUMS) · [自动更新清单 latest.json](https://github.com/yangbo5207/usework-releases/releases/download/v0.1.26/latest.json)。安装包直接从 Releases 下载，无需下载仓库 ZIP。
+[安装包校验值](https://github.com/yangbo5207/usework-releases/releases/download/v0.1.27/SHA256SUMS) · [自动更新清单 latest.json](https://github.com/yangbo5207/usework-releases/releases/download/v0.1.27/latest.json)。安装包直接从 Releases 下载，无需下载仓库 ZIP。
 
 ## 自动更新
 
